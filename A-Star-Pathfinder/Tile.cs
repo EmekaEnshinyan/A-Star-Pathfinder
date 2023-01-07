@@ -11,8 +11,8 @@ namespace A_Star_Pathfinder
         //automatically implemented properties with no 
             //accessor bodies
         //useful when property fetches and sets the field value
-        public int X { get; set; }
-        public int Y { get; set; }
+        public int x { get; set; }
+        public int y { get; set; }
         public int Cost { get; set; }
         public int Distance { get; set; }
 
